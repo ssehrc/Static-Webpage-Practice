@@ -1,0 +1,17 @@
+*{
+    background: #232830;
+    width: 1682px;
+    height: 2753px;
+}
+.title{
+    color: #FF7575;
+    font-family: 'Recursive';
+    font-size: 71px;
+    text-align: center;
+}
+.quote{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 29px;
+    text-align: center;
+}
