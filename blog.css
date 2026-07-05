@@ -27,6 +27,18 @@
 .right-header{
     display: flex;
     justify-content: space-between;
-    align-items: right;
+    align-items: center;
     gap: 60px;
+}
+.category-listing{
+    margin-top: 40px;
+    margin-left: 150px;
+    color: #909090;
+    font-family: 'Recursive';
+    font-style: italic;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
 }
