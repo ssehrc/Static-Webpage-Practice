@@ -7,10 +7,26 @@
     font-style: italic;
     font-size: 61px;
     text-align: center;
+    margin-top: 40px;
 }
 .quote{
     color: white;
     font-family: 'Poppins';
     font-size: 19px;
     text-align: center;
+}
+.header{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.right-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    gap: 60px;
 }
