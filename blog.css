@@ -52,13 +52,12 @@
 }
 
 .article{
-    width: 75%;
-    max-width: 470px;
     background: white;
     color: #fff;
     border-radius: 20px;
-    padding: 40px 35px;
-    align-items: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .article-title{
@@ -66,12 +65,14 @@
     color: black;
     font-weight: 600;
     font-family: 'Poppins';
+    padding: 20px 20px 10px 20px;
 }
 
 .article-description{
     background: white;
     color: black;
     font-family: 'Poppins';
+    padding: 0 20px 10px 20px;
 }
 
 .article-date{
@@ -82,7 +83,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5px;
+    padding: 10px 20px;
 }
 
 .article-category{
@@ -92,4 +93,10 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+}
+
+.article image{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
 }
