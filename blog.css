@@ -52,7 +52,7 @@
 }
 
 .article{
-    width: 50%;
+    width: 75%;
     max-width: 470px;
     background: white;
     color: #fff;
@@ -61,3 +61,35 @@
     align-items: center;
 }
 
+.article-title{
+    background: white;
+    color: black;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.article-description{
+    background: white;
+    color: black;
+    font-family: 'Poppins';
+}
+
+.article-date{
+    margin-top: 15px;
+    background: white;
+    color: black;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.article-category{
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
